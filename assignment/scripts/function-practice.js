@@ -46,7 +46,7 @@ function isPositive( number ) {
   }
     return false;
 }
-console.log(isPositive(2));
+console.log('Expect true:', isPositive(2));
 // Call the function to test each outcome (true & false) 
 // Write a separate console.log statement for each outcome
 console.log( 'isPositive - should say true', isPositive(3) );
@@ -107,11 +107,21 @@ function sumAll(array){
    console.log(sum);
   }
 sumAll(array1);
-
-;
 // 10. Function to return a new array of all positive (greater than zero)
 //     numbers contained in an input array. If there are no positive numbers
 //     return an empty array. Note: The input array should not change.
+let array3 = [7,-8,90,-63,-4]
+let newNumbers= [];
+function newArray(array) {
+  for (let i = 0;i < array.length;i++) {
+    if (array[i]>= 0)
+      newNumbers.push(array[i]);
+   }  
+  } 
+
+console.log(array3);
+
+
 
 
 

@@ -112,14 +112,17 @@ sumAll(array1);
 //     return an empty array. Note: The input array should not change.
 let array3 = [7,-8,90,-63,-4]
 let newNumbers= [];
-function newArray(array) {
-  for (let i = 0;i < array.length;i++) {
-    if (array[i]>= 0)
-      newNumbers.push(array[i]);
+
+function newArray(array){
+  for (let i = 0;i < array3.length;i++){
+    if (array3[i] >= 0) {
+      newNumbers.push(array3[i]);
+    } 
    }  
   } 
+  newArray();
+console.log(newNumbers);
 
-console.log(array3);
 
 
 // 11. Pick a problem from Edabit(https://edabit.com/) or 

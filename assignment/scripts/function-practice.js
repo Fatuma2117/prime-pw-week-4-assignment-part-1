@@ -128,3 +128,18 @@ console.log(newNumbers);
 // 11. Pick a problem from Edabit(https://edabit.com/) or 
 //     CodeWars(https://www.codewars.com/). Then describe it 
 //     here in a comment, write the function, and test it!
+
+// The question was to solve for the number of days alive given your age.
+// created a variable age outside the function and set it equal to 26
+// within the function made a variable days will equal age multiplied by 365
+//  returned days and consoled age. 
+
+
+let age = [26]
+
+function calcAge(age) {
+	let days = age * 365
+	return days
+}
+console.log(calcAge(age))
+// calcAge(26)

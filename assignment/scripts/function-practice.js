@@ -72,6 +72,7 @@ let array2 = [45,8,58, 11, -99]
 function find( value, array){
   for (let i =0; i< array2.length; i++) {
     if (value === array2[i]) {
+      let value = array2[i]
    return true
    } else {
      return false
@@ -79,6 +80,19 @@ function find( value, array){
   } 
 }
 console.log(find(45,array2));
+console.log(find(56,array2));
+console.log(find(55,array2));
+console.log(find(100,array2));
+
+// function find(value,array) {
+//   for (num of value) {
+//     if (num === array) {
+//       return true;
+//     }
+//   }
+//   return false
+// }
+// console.log(find(array2));
 
 // ----------------------
 // Stretch Goals

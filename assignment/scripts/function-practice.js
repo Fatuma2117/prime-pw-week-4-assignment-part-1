@@ -79,10 +79,10 @@ function find( value, array){
    }
   } 
 }
-console.log(find(45,array2));
-console.log(find(56,array2));
-console.log(find(55,array2));
-console.log(find(100,array2));
+console.log('Expect true:', find(45,array2));
+console.log('Expect false:',find(56,array2));
+console.log('Expect false:',find(55,array2));
+console.log('Expect false:',find(100,array2));
 
 // function find(value,array) {
 //   for (num of value) {
